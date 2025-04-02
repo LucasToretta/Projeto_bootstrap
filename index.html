@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pijamas.com</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class=" navbar navbar-expand-lg sticky-top" id="cabecalho">
+    <div class="container">
+        <h1 class="navbar-brand fw-bold m-0">Pijamas.com</h1>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar-collapse collapse justify-content-end mt-lg-0 mt-3" id="menu-navegation">
+            <ul class="nav nav-pills d-block d-md-flex">
+                <li class="nav-item fw-bold ">
+                    <a href="#sobre-a-loja" class="nav-link ">
+                        <i class="bi bi-house-door me-1"></i>
+                        Sobre a loja
+                    </a>
+                </li>
+                <li class="nav-item fw-bold">
+                        <a href="#Ocasiões" class="nav-link">
+                            <i class="bi bi-calendar-event me-1"></i>
+                            Ocasiões
+                        </a>
+                </li>
+                <li class="nav-item fw-bold">
+                        <a href="#Produtos" class="nav-link">
+                            <i class="bi bi-cart me-1"></i>
+                            Produtos
+                        </a>
+                </li>
+                <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-dots me-1"></i>
+                            Fale conosco</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div data-bs-spy="scroll" data-bs-target="cabecalho">
+    <section id="sobre-a-loja">
+    <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+        <div class="carousel-item active" data-bs-interval="4000">
+            <img src="images/carousel1.jpg.webp" class="w-100 " 
+                style="height: 600px;" alt="Imagem 1">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="images/Carousel2.jpg.webp" class=" w-100 " alt="Imagem 2"
+                style="height: 600px;" alt="Imagem 2">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="images/Carousel3.jpeg" class=" w-100 " alt="Imagem 3"
+                style="height: 600px;" alt="Imagem 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <div class="container_fachada" id="sobre-a-loja">
+        <div class="row">
+            <div class="col-md-5">
+                <img src="images/fachada.jpeg" class="w-100" alt="Foto da fachada">
+            </div>
+            <div class="col-md-5">
+                <h2>Sobre a loja</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum fugit laboriosam provident sunt. Unde, sit facere, quas ea, assumenda numquam eaque pariatur dolor in odio porro repellat quae neque et. 
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor doloribus laudantium beatae a mollitia tempora dolorum nisi fugit, voluptate reprehenderit maxime itaque? Facilis numquam velit ex corporis. Quas, dolorem porro.</p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="Ocasiões">
+        <div class="container_ocasioes p-3">
+            <div class="row">
+                <h2 class="text-center pt-2 pb-4">Para todas Ocasiões</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="ratio ratio-4x3">
+                        <img src="images/kids.jpg.webp" alt="Kids" class="img-fluid rounded w-100 h-100">
+                    </div>
+                    <h3 class="Text-h3 pt-1">Kids</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Emo consectetur eos id rerum.</p>
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-sucess rounded mb-3">Saiba mais</button>
+                    </div>
+                    
+                </div>
+    
+                <div class="col-md-4">
+                    <div class="ratio ratio-4x3">
+                        <img src="images/masculino.jpg.webp" alt="Masculino" class="img-fluid rounded w-100 h-100">
+                    </div>
+                    <h3 class="Text-h3 pt-1">Masculino</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Emo consectetur eos id rerum.</p>
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-sucess rounded mb-3">Saiba mais</button>
+                    </div>
+                    
+                </div>
+    
+                <div class="col-md-4">
+                    <div class="ratio ratio-4x3">
+                        <img src="images/maternidade.jpg" alt="Maternidade" class="img-fluid rounded w-100 h-100">
+                    </div>
+                    <h3 class="Text-h3 pt-1">Maternidade</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Emo consectetur eos id rerum.</p>
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-sucess rounded mb-3">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Produtos">
+        <div class="container pb-5">
+            <div class="row">
+                <h2 class="text-center p-4">Nossos produtos</h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2 aside_produtos">
+                    <nav class="nav nav-pills flex-column mb-4">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#Pijama-feminino" class="fw-bold text-start nav-link active">Pijamas Femininos</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#Pijama-masculino" class="fw-bold text-start nav-link">Pijamas Masculinos</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#Pijama-kids" class="fw-bold text-start nav-link">Pijamas Kids</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#Pijama-maternidade" class="fw-bold text-start nav-link">Pijamas Maternidade</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="Pijama-feminino">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="images/Feminino.jpeg.webp" alt="">
+                                <h5 class="fw-bold mt-2">Pijama Feminino</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                                <button class="btn btn-sucess rounded mb-3">Comprar</button>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="images/Feminino.jpeg.webp" alt="">
+                                <h5 class="fw-bold mt-2">Pijama Feminino</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                                <button class="btn btn-sucess rounded mb-3">Comprar</button>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="images/Feminino.jpeg.webp" alt="">
+                                <h5 class="fw-bold mt-2">Pijama Feminino</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                                <button class="btn btn-sucess rounded mb-3">Comprar</button>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="images/Feminino.jpeg.webp" alt="">
+                                <h5 class="fw-bold mt-2">Pijama Feminino</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                                <button class="btn btn-sucess rounded mb-3">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="Pijama-masculino">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="images/masculino.jpg.webp" alt="">
+                                <h5 class="fw-bold mt-2">Pijama Masculino</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                                <button class="btn btn-sucess rounded mb-3">Comprar</button>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="images/masculino.jpg.webp" alt="">
+                                <h5 class="fw-bold mt-2">Pijama Masculino</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                                <button class="btn btn-sucess rounded mb-3">Comprar</button>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="images/masculino.jpg.webp" alt="">
+                                <h5 class="fw-bold mt-2">Pijama Masculino</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                                <button class="btn btn-sucess rounded mb-3">Comprar</button>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="images/masculino.jpg.webp" alt="">
+                                <h5 class="fw-bold mt-2">Pijama Masculino</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                                <button class="btn btn-sucess rounded mb-3">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="Pijama-kids">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="images/kids.jpg.webp" alt="">
+                                <h5 class="fw-bold mt-2">Pijama Kids</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                                <button class="btn btn-sucess rounded mb-3">Comprar</button>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="images/kids.jpg.webp" alt="">
+                                <h5 class="fw-bold mt-2">Pijama Kids</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                                <button class="btn btn-sucess rounded mb-3">Comprar</button>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="images/kids.jpg.webp" alt="">
+                                <h5 class="fw-bold mt-2">Pijama Kids</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                                <button class="btn btn-sucess rounded mb-3">Comprar</button>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="images/kids.jpg.webp" alt="">
+                                <h5 class="fw-bold mt-2">Pijama Kids</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                                <button class="btn btn-sucess rounded mb-3">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="Pijama-maternidade">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="images/maternidade.jpg" alt="">
+                                <h5 class="fw-bold mt-2">Pijama maternidade</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                                <button class="btn btn-sucess rounded mb-3">Comprar</button>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="images/maternidade.jpg" alt="">
+                                <h5 class="fw-bold mt-2">Pijama maternidade</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                                <button class="btn btn-sucess rounded mb-3">Comprar</button>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="images/maternidade.jpg" alt="">
+                                <h5 class="fw-bold mt-2">Pijama maternidade</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                                <button class="btn btn-sucess rounded mb-3">Comprar</button>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="images/maternidade.jpg" alt="">
+                                <h5 class="fw-bold mt-2">Pijama maternidade</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                                <button class="btn btn-sucess rounded mb-3">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fale-conosco" >
+        <div class="container_fale">
+            <div class="row">
+                <h2 class= "text-center p-4">Fale conosco</h2>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form class="p-3">
+                            <div class="mb-3">
+                                <label for="Nome" class="form-lable fw-bold">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-lable fw-bold">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-lable fw-bold">Seu telefone</label>
+                                <input type="tel" id="telefone" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-lable fw-bold">Seu mensagem</label>
+                                <textarea class="form-control" required id="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-sucess rounded mb-3 mt-2 fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5 ps-4">
+                        <div class="row">
+                            <h3 class="fs-4">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-success"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-success"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-success"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3 class="fs-4">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua Teste, n 145, Tarefa ebac - São Paulo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    </section>
+</div>
+    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

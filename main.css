@@ -1,0 +1,76 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: rgb(213, 246, 216)
+}
+
+.navbar {
+    background-color: rgb(194, 252, 198);
+}
+
+.nav .nav-link.active {
+    background-color: #ffffff;
+    color: rgb(45, 224, 57);
+}
+.nav .nav-link,
+.navbar-brand, 
+.navbar-brand:hover {
+    color:rgb(45, 224, 57);
+    ;
+}
+.navbar-brand {
+    font-family: Merriweather;
+}
+
+#sobre-a-loja {
+    position: relative;
+}
+.container_fachada {
+    padding-top: 630px;
+    padding-left: 120px;
+    padding-bottom: 50px;
+}
+
+h2,
+h3 {
+    color: rgb(45, 224, 57);
+}
+
+
+.container_ocasioes,
+.container_fale {
+    background-color: #ffffff79;
+}
+
+.btn-sucess{
+    background-color: rgb(45, 224, 57);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .container_fachada {
+    padding: 630px 24px;
+    }
+
+    h2{
+        padding-top: 16px;
+    }
+
+    .carousel-item {
+        height: 280px;
+    }
+    
+} 
+@media screen and (min-width: 769px) and (max-width: 1046px)  {
+    .aside_produtos{
+    padding-left: 0px;
+    }
+
+}
