@@ -11,43 +11,41 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="main.css">
 </head>
-<body>
-    <header class=" navbar navbar-expand-lg sticky-top" id="cabecalho">
-    <div class="container">
-        <h1 class="navbar-brand fw-bold m-0">Pijamas.com</h1>
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <nav class="navbar-collapse collapse justify-content-end mt-lg-0 mt-3" id="menu-navegation">
-            <ul class="nav nav-pills d-block d-md-flex">
-                <li class="nav-item fw-bold ">
-                    <a href="#sobre-a-loja" class="nav-link ">
-                        <i class="bi bi-house-door me-1"></i>
-                        Sobre a loja
-                    </a>
-                </li>
-                <li class="nav-item fw-bold">
+
+<body data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true" >
+    <header class="navbar navbar-expand-lg sticky-top" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand fw-bold m-0">Pijamas.com</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end mt-lg-0 mt-3" id="menu-navegation">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link active">
+                            <i class="bi bi-house-door me-1"></i> Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
                         <a href="#Ocasiões" class="nav-link">
-                            <i class="bi bi-calendar-event me-1"></i>
-                            Ocasiões
+                            <i class="bi bi-calendar-event me-1"></i> Ocasiões
                         </a>
-                </li>
-                <li class="nav-item fw-bold">
+                    </li>
+                    <li class="nav-item fw-bold">
                         <a href="#Produtos" class="nav-link">
-                            <i class="bi bi-cart me-1"></i>
-                            Produtos
+                            <i class="bi bi-cart me-1"></i> Produtos
                         </a>
-                </li>
-                <li class="nav-item fw-bold">
+                    </li>
+                    <li class="nav-item fw-bold">
                         <a href="#fale-conosco" class="nav-link">
-                            <i class="bi bi-chat-dots me-1"></i>
-                            Fale conosco</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-</header>
-<div data-bs-spy="scroll" data-bs-target="cabecalho">
+                            <i class="bi bi-chat-dots me-1"></i> Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
     <section id="sobre-a-loja">
     <div class="carousel slide" data-bs-ride="carousel" id="carousel">
         <div class="carousel-item active" data-bs-interval="4000">
@@ -69,7 +67,7 @@
         <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
             <span class="carousel-control-next-icon"></span>
         </button>
-    </div>
+    
     <div class="container_fachada" id="sobre-a-loja">
         <div class="row">
             <div class="col-md-5">
@@ -83,6 +81,7 @@
         </div>
     </div>
     </section>
+    
     <section id="Ocasiões">
         <div class="container_ocasioes p-3">
             <div class="row">
@@ -326,8 +325,6 @@
 
     </section>
 </div>
-    
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
